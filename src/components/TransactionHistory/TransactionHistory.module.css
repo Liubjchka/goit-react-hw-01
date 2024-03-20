@@ -1,0 +1,42 @@
+.table {
+  min-width: 100%;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+  text-align: left;
+  vertical-align: top;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.title {
+  background-color: rgb(48, 48, 48);
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.body {
+  color: black;
+}
+
+.body .item:nth-child(2n) {
+  background-color: #e2dfdf;
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.type {
+  padding: 8px 8px 8px 120px;
+  border: 1px solid black;
+}
+
+.amount {
+  padding: 8px 8px 8px 120px;
+  border: 1px solid black;
+}
+
+.currency {
+  padding: 8px 8px 8px 120px;
+  border: 1px solid black;
+}
